@@ -225,10 +225,10 @@
     "Part": "Northeast",
     "ObesityRate": "12.2%",
     "MedianHouseholdIncome": "$86,725",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Clam chowder",
+    "Cost": "$16.99",
+    "Calories": "201 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/18/asset/buzzfeed-prod-fastlane-02/sub-buzz-8793-1518737036-6.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "Michigan",
@@ -236,10 +236,10 @@
     "Part": "Midwest",
     "ObesityRate": "15.7%",
     "MedianHouseholdIncome": "$63,829",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Coney dogs",
+    "Cost": "$8.29",
+    "Calories": "593 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/18/asset/buzzfeed-prod-fastlane-01/sub-buzz-30315-1518737189-2.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "Minnesota",
@@ -247,10 +247,10 @@
     "Part": "Midwest",
     "ObesityRate": "11.7%",
     "MedianHouseholdIncome": "$78,461",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Jucy Lucy",
+    "Cost": "$19.95",
+    "Calories": "800 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/18/asset/buzzfeed-prod-fastlane-02/sub-buzz-8735-1518737421-15.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "Mississippi",
@@ -258,10 +258,10 @@
     "Part": "South",
     "ObesityRate": "22.3%",
     "MedianHouseholdIncome": "$44,966",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Catfish",
+    "Cost": "$13.49",
+    "Calories": "412 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/18/asset/buzzfeed-prod-fastlane-02/sub-buzz-8735-1518737499-17.jpg?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "Missouri",
@@ -269,10 +269,10 @@
     "Part": "Midwest",
     "ObesityRate": "19.6%",
     "MedianHouseholdIncome": "$61,901",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Toasted ravioli",
+    "Cost": "$9.29",
+    "Calories": "295 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/18/asset/buzzfeed-prod-fastlane-03/sub-buzz-7823-1518737699-1.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "Montana",
@@ -280,10 +280,10 @@
     "Part": "West",
     "ObesityRate": "10.0%",
     "MedianHouseholdIncome": "$56,442",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Huckleberries",
+    "Cost": "$10.00",
+    "Calories": "85 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/18/asset/buzzfeed-prod-fastlane-02/sub-buzz-9436-1518737829-1.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "Nebraska",
@@ -291,10 +291,10 @@
     "Part": "Midwest",
     "ObesityRate": "12.6%",
     "MedianHouseholdIncome": "$72,024",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Runza",
+    "Cost": "$18.49",
+    "Calories": "1179 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/18/asset/buzzfeed-prod-fastlane-01/sub-buzz-31175-1518738113-9.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "Nevada",
@@ -302,10 +302,10 @@
     "Part": "West",
     "ObesityRate": "16.0%",
     "MedianHouseholdIncome": "$60,956",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "The Awful-Awful",
+    "Cost": "$7.50",
+    "Calories": "460 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/16/17/asset/buzzfeed-prod-fastlane-03/sub-buzz-2488-1518818611-1.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "New Hampshire",
@@ -313,10 +313,10 @@
     "Part": "Northeast",
     "ObesityRate": "13.5%",
     "MedianHouseholdIncome": "$88,235",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Cider donuts",
+    "Cost": "$10.00",
+    "Calories": "808 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/20/13/asset/buzzfeed-prod-fastlane-02/sub-buzz-24801-1519151995-10.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "New Jersey",
@@ -324,10 +324,10 @@
     "Part": "Northeast",
     "ObesityRate": "13.8%",
     "MedianHouseholdIncome": "$85,239",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Pork rolls",
+    "Cost": "$12.50",
+    "Calories": "567 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/18/asset/buzzfeed-prod-fastlane-01/sub-buzz-31860-1518738863-1.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "New Mexico",
@@ -335,10 +335,10 @@
     "Part": "West",
     "ObesityRate": "15.3%",
     "MedianHouseholdIncome": "$50,822",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Green chile",
+    "Cost": "$3.00",
+    "Calories": "90 Kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/18/asset/buzzfeed-prod-fastlane-02/sub-buzz-9892-1518738957-2.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "New York",
@@ -346,10 +346,10 @@
     "Part": "Northeast",
     "ObesityRate": "11.5%",
     "MedianHouseholdIncome": "$68,304",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Bagels",
+    "Cost": "$4.00",
+    "Calories": "346 Kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/18/asset/buzzfeed-prod-fastlane-03/sub-buzz-8396-1518739031-1.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "North Carolina",
@@ -357,10 +357,10 @@
     "Part": "South",
     "ObesityRate": "19.8%",
     "MedianHouseholdIncome": "$60,266",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Pulled pork barbecue",
+    "Cost": "$15.00",
+    "Calories": "418 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/18/asset/buzzfeed-prod-fastlane-01/sub-buzz-31860-1518739146-5.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "North Dakota",
@@ -368,10 +368,10 @@
     "Part": "Midwest",
     "ObesityRate": "10.5%",
     "MedianHouseholdIncome": "$63,657",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Lefse",
+    "Cost": "488 kcal",
+    "Calories": "$17.25",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/19/asset/buzzfeed-prod-fastlane-01/sub-buzz-32007-1518739220-1.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "Ohio",
@@ -379,10 +379,10 @@
     "Part": "Midwest",
     "ObesityRate": "17.2%",
     "MedianHouseholdIncome": "$60,110",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Skyline chili",
+    "Cost": "$11.65",
+    "Calories": "566 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/19/asset/buzzfeed-prod-fastlane-02/sub-buzz-10235-1518739311-1.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "Oklahoma",
@@ -390,10 +390,10 @@
     "Part": "South",
     "ObesityRate": "18.7%",
     "MedianHouseholdIncome": "$52,341",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Fried okra",
+    "Cost": "$12.00",
+    "Calories": "724 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/19/asset/buzzfeed-prod-fastlane-02/sub-buzz-10235-1518739354-3.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "Oregon",
@@ -401,10 +401,10 @@
     "Part": "West",
     "ObesityRate": "13.7",
     "MedianHouseholdIncome": "$76,554",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Voodoo Donuts",
+    "Cost": "$21.95",
+    "Calories": "2779 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/19/asset/buzzfeed-prod-fastlane-02/sub-buzz-10068-1518739659-3.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "Pennsylvania",
@@ -412,10 +412,10 @@
     "Part": "Northeast",
     "ObesityRate": "15.1%",
     "MedianHouseholdIncome": "$70,117",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Cheesesteaks",
+    "Cost": "$12.00",
+    "Calories": "1146 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/19/asset/buzzfeed-prod-fastlane-01/sub-buzz-32396-1518739937-1.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "Rhode Island",
@@ -423,10 +423,10 @@
     "Part": "Northeast",
     "ObesityRate": "16.7%",
     "MedianHouseholdIncome": "$80,012",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Coffee milk",
+    "Cost": "$25",
+    "Calories": "150 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/19/asset/buzzfeed-prod-fastlane-03/sub-buzz-9128-1518740115-2.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "South Carolina",
@@ -434,10 +434,10 @@
     "Part": "South",
     "ObesityRate": "20.1%",
     "MedianHouseholdIncome": "$60,097",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Chicken bog",
+    "Cost": "$12.00",
+    "Calories": "244.4 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/19/asset/buzzfeed-prod-fastlane-02/sub-buzz-10549-1518740376-1.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "South Dakota",
@@ -445,10 +445,10 @@
     "Part": "Midwest",
     "ObesityRate": "15.2%",
     "MedianHouseholdIncome": "$69,787",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Chislic",
+    "Cost": "$146.40",
+    "Calories": "405 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/19/asset/buzzfeed-prod-fastlane-01/sub-buzz-361-1518740531-1.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "Tennessee",
@@ -456,10 +456,10 @@
     "Part": "South",
     "ObesityRate": "20.8%",
     "MedianHouseholdIncome": "$54,665",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Hot chicken",
+    "Cost": "$16.50",
+    "Calories": "374 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/19/asset/buzzfeed-prod-fastlane-01/sub-buzz-32396-1518740653-3.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "Texas",
@@ -467,10 +467,10 @@
     "Part": "South",
     "ObesityRate": "20.3%",
     "MedianHouseholdIncome": "$68,093",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Barbecue",
+    "Cost": "$20.00",
+    "Calories": "1255 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/19/asset/buzzfeed-prod-fastlane-02/sub-buzz-11089-1518741128-1.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "Utah",
@@ -478,10 +478,10 @@
     "Part": "West",
     "ObesityRate": "10.3%",
     "MedianHouseholdIncome": "$83,670",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Funeral potatoes",
+    "Cost": "$21",
+    "Calories": "834 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/19/asset/buzzfeed-prod-fastlane-03/sub-buzz-8894-1518741245-5.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "Vermont",
@@ -489,10 +489,10 @@
     "Part": "Northeast",
     "ObesityRate": "14.0%",
     "MedianHouseholdIncome": "$66,902",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Maple syrup",
+    "Cost": "$9.99",
+    "Calories": "260 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/19/asset/buzzfeed-prod-fastlane-03/sub-buzz-9699-1518741322-3.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "Virginia",
@@ -500,10 +500,10 @@
     "Part": "South",
     "ObesityRate": "14.9%",
     "MedianHouseholdIncome": "$81,947",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Ham",
+    "Cost": "$24.95",
+    "Calories": "373 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/19/asset/buzzfeed-prod-fastlane-01/sub-buzz-570-1518741401-1.jpg?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "Washington",
@@ -511,10 +511,10 @@
     "Part": "West",
     "ObesityRate": "13.2%",
     "MedianHouseholdIncome": "$81,083",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Salmon",
+    "Cost": "$99.95",
+    "Calories": "468 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/19/asset/buzzfeed-prod-fastlane-03/sub-buzz-9285-1518741440-10.jpg?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "West Virginia",
@@ -522,10 +522,10 @@
     "Part": "South",
     "ObesityRate": "21.9%",
     "MedianHouseholdIncome": "$51,615",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Pepperoni roll",
+    "Cost": "$10.00",
+    "Calories": "750 kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/19/asset/buzzfeed-prod-fastlane-01/sub-buzz-32374-1518741537-6.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "Wisconsin",
