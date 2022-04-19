@@ -533,10 +533,10 @@
     "Part": "Midwest",
     "ObesityRate": "14.6%",
     "MedianHouseholdIncome": "$67,094",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Fried cheese curds",
+    "Cost": "$35.00",
+    "Calories": "690 Kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/19/asset/buzzfeed-prod-fastlane-02/sub-buzz-11089-1518741605-4.png?downsize=600:*&output-format=auto&output-quality=auto"
   },
   {
     "name": "Wyoming",
@@ -544,9 +544,9 @@
     "Part": "West",
     "ObesityRate": "11.0%",
     "MedianHouseholdIncome": "$65,108",
-    "FavoriteFood" : "",
-    "Cost": "",
-    "Calories": "",
-    "Image": ""
+    "FavoriteFood" : "Soda bread",
+    "Cost": "$5.99",
+    "Calories": "124 Kcal",
+    "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/16/16/asset/buzzfeed-prod-fastlane-01/sub-buzz-25534-1518818203-4.png?downsize=600:*&output-format=auto&output-quality=auto"
   }
 ]
