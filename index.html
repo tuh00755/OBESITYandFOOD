@@ -13,63 +13,266 @@
         <script src="https://unpkg.com/topojson@3"></script>
         <!-- load our custom D3 code (must happen after D3 is loaded) -->
         <script src="./geomap.js"></script>
-<!--        <script src="./geomap2.js"></script>-->
-<!--         <link rel="stylesheet" href="./style.css">-->
+        <script src="./geomap2.js"></script>
+        <script src="./scatterplot.js"></script>
+
+        <link rel="stylesheet" href="./style.css">
 
 
     </head>
-    <h1>Roncy Joseph & Abin Cheriyan</h1>
-    <h2>PROJECT: OBESITY and FOOD</h2>
-<!--    <div id="container">-->
-<!--        <div id="div1">-->
-<!--            <h3>-->
-<!--                WEST-->
-<!--            </h3>-->
-<!--            <h4>-->
-<!--                HIGHEST OBESITY RATE IN THE WEST-->
-<!--                <p>-->
-<!--                    Name: Alaska-->
-<!--                    <br/>-->
-<!--                    <br/>-->
-<!--                    ObesityRate: 17.8%-->
-<!--                    <br/>-->
-<!--                    <br/>-->
-<!--                    MedianHouseholdIncome: $54,393-->
-<!--                    <br/>-->
-<!--                    <br/>-->
-<!--                    FavoriteFood : Ice-Cream-->
-<!--                    <br/>-->
-<!--                    <br/>-->
-<!--                    Cost: $7.99-->
-<!--                    <br/>-->
-<!--                    <br/>-->
-<!--                    Calorie: 1970.1 kcal-->
-<!--                    <br/>-->
-<!--                    <br/>-->
-<!--                    <img src="https://images.albertsons-media.com/is/image/ABS/970046227?$ecom-pdp-tablet$&defaultImage=Not_Available&defaultImage=Not_Available" alt="" width="100" height="100">-->
-<!--                </p>-->
-<!--            </h4>-->
-<!--        </div>-->
-<!--        <div id="div2">-->
+    <h2>Roncy Joseph & Abin Cheriyan</h2>
+    <h1>PROJECT: OBESITY and FOOD</h1>
 
-<!--        </div>-->
-<!--        <div id="div3">-->
+    <svg id="canvas" width="1000" height="600"></svg>
+    <div id="tooltip"></div>
 
-<!--        </div>-->
-<!--        <div id="div4">-->
+    <div id="container">
+         <div id="div1">
+            <h1>
+                WEST
+            </h1>
+            <h3>
+                HIGHEST OBESITY RATE IN THE WEST
+                <p>
+                    Name: Alaska
+                    <br/>
+                    <br/>
+                    ObesityRate: 17.8%
+                    <br/>
+                    <br/>
+                    MedianHouseholdIncome: $54,393
+                    <br/>
+                    <br/>
+                    FavoriteFood : Ice-Cream
+                    <br/>
+                    <br/>
+                    Cost: $7.99
+                    <br/>
+                    <br/>
+                    Calorie: 1970.1 kcal
+                    <br/>
+                    <br/>
+                     <div class="img">
+                         <img src="https://images.albertsons-media.com/is/image/ABS/970046227?$ecom-pdp-tablet$&defaultImage=Not_Available&defaultImage=Not_Available" alt="" width="100" height="100">
+                     </div>
+                </p>
+            </h3>
+        </div>
+        <div id="div2">
+            <h3>
+                LOWEST OBESITY RATE IN THE WEST
+                <p>
+                    Name: Montana
+                    <br/>
+                    <br/>
+                    ObesityRate: 10.0%
+                    <br/>
+                    <br/>
+                    MedianHouseholdIncome: $56,442
+                    <br/>
+                    <br/>
+                    FavoriteFood : Huckleberries
+                    <br/>
+                    <br/>
+                    Cost: $10.00
+                    <br/>
+                    <br/>
+                    Calorie: 85 kcal
+                    <br/>
+                    <br/>
+                     <div class="img">
+                         <img src= "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/18/asset/buzzfeed-prod-fastlane-02/sub-buzz-9436-1518737829-1.png?downsize=1500:*&output-format=auto&output-quality=auto"
+                     </div>
+                </p>
+            </h3>
+        </div>
+        <div id="div3">
+            <h1>
+                MIDWEST
+            </h1>
+            <h3>
+                HIGHEST OBESITY RATE IN THE MIDWEST
+                <p>
+                    Name: Missouri
+                    <br/>
+                    <br/>
+                    ObesityRate: 19.6%
+                    <br/>
+                    <br/>
+                    MedianHouseholdIncome: $61,901
+                    <br/>
+                    <br/>
+                    FavoriteFood : Toasted ravioli
+                    <br/>
+                    <br/>
+                    Cost: $9.29
+                    <br/>
+                    <br/>
+                    Calorie: 295 kcal
+                    <br/>
+                    <br/>
+                     <div class="img">
+                         <img src= "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/18/asset/buzzfeed-prod-fastlane-03/sub-buzz-7823-1518737699-1.png?downsize=1500:*&output-format=auto&output-quality=auto"
+                     </div>
+                </p>
+            </h3>
+        </div>
+        <div id="div4">
+            <h3>
+                LOWEST OBESITY RATE IN THE MIDWEST
+                <p>
+                    Name: North Dakota
+                    <br/>
+                    <br/>
+                    ObesityRate: 10.5%
+                    <br/>
+                    <br/>
+                    MedianHouseholdIncome: $63,657
+                    <br/>
+                    <br/>
+                    FavoriteFood : Lefse
+                    <br/>
+                    <br/>
+                    Cost: $17.25
+                    <br/>
+                    <br/>
+                    Calorie: 488 kcal
+                    <br/>
+                    <br/>
+                     <div class="img">
+                        <img src= "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/19/asset/buzzfeed-prod-fastlane-01/sub-buzz-32007-1518739220-1.png?downsize=1500:*&output-format=auto&output-quality=auto"
+                     </div>
+                </p>
+            </h3>
+        </div>
+        <div id="div5">
+            <h1>
+                SOUTH
+            </h1>
+            <h3>
+                HIGHEST OBESITY RATE IN THE SOUTH
+                <p>
+                    Name: Kentucky
+                    <br/>
+                    <br/>
+                    ObesityRate: 23.8%
+                    <br/>
+                    <br/>
+                    MedianHouseholdIncome: $56,525
+                    <br/>
+                    <br/>
+                    FavoriteFood : The Hot Brown
+                    <br/>
+                    <br/>
+                    Cost: $23.27
+                    <br/>
+                    <br/>
+                    Calorie: 951 kcal
+                    <br/>
+                    <br/>
+                     <div class="img">
 
-<!--        </div>-->
-<!--        <div id="div5">-->
+                         <img src= "https://styleblueprint.com/wp-content/uploads/2018/04/Hot-Brown-Credit-Chris-Witzke-3.jpg"
 
-
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="fixed">-->
-        <!-- create an SVG canvas for us to modify -->
-        <svg id="canvas" width="1000" height="600"></svg>
-        <div id="tooltip"></div>
-        <div id="legend"></div>
-        <svg id="canvas1" width="1000" height="600"></svg>
+                     </div>
+                </p>
+            </h3>
+        </div>
+        <div id="div6">
+            <h3>
+                LOWEST OBESITY RATE IN THE SOUTH
+                <p>
+                    Name: Virginia
+                    <br/>
+                    <br/>
+                    ObesityRate: 14.9%
+                    <br/>
+                    <br/>
+                    MedianHouseholdIncome: $81,947
+                    <br/>
+                    <br/>
+                    FavoriteFood : Ham
+                    <br/>
+                    <br/>
+                    Cost: $24.95
+                    <br/>
+                    <br/>
+                    Calorie: 373 kcal
+                    <br/>
+                    <br/>
+                     <div class="img">
+                        <img src= "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/19/asset/buzzfeed-prod-fastlane-01/sub-buzz-570-1518741401-1.jpg?downsize=1500:*&output-format=auto&output-quality=auto"
+                     </div>
+                </p>
+            </h3>
+        </div>
+        <div id="div7">
+            <h1>
+                NORTHEAST
+            </h1>
+            <h3>
+                HIGHEST OBESITY RATE IN THE NORTHEAST
+                <p>
+                    Name: Rhode Island
+                    <br/>
+                    <br/>
+                    ObesityRate: 16.7%
+                    <br/>
+                    <br/>
+                    MedianHouseholdIncome: $80,012
+                    <br/>
+                    <br/>
+                    FavoriteFood : Coffee milk
+                    <br/>
+                    <br/>
+                    Cost: $25
+                    <br/>
+                    <br/>
+                    Calorie: 150 kcal
+                    <br/>
+                    <br/>
+                     <div class="img">
+                         <img src= "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/19/asset/buzzfeed-prod-fastlane-03/sub-buzz-9128-1518740115-2.png?downsize=1500:*&output-format=auto&output-quality=auto"
+                     </div>
+                </p>
+            </h3>
+        </div>
+        <div id="div8">
+            <h3>
+                LOWEST OBESITY RATE IN THE NORTHEAST
+                <p>
+                    Name: New York
+                    <br/>
+                    <br/>
+                    ObesityRate: 11.5%
+                    <br/>
+                    <br/>
+                    MedianHouseholdIncome: $68,304
+                    <br/>
+                    <br/>
+                    FavoriteFood : Bagels
+                    <br/>
+                    <br/>
+                    Cost: $4.00
+                    <br/>
+                    <br/>
+                    Calorie: 346 Kcal
+                    <br/>
+                    <br/>
+                     <div class="img">
+                        <img src= "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/18/asset/buzzfeed-prod-fastlane-03/sub-buzz-8396-1518739031-1.png?downsize=1500:*&output-format=auto&output-quality=auto"
+                     </div>
+                </p>
+            </h3>
+        </div>
+    </div>
+    <div class="fixed">
+        <svg id="MapPhoto" width="500" height="500"></svg>
+    </div>
+    <div>
+        <svg id="scatterplot" width="1000" height="600"></svg>
+        <div id="tooltip1"></div>
+    </div>
 
 <!--    </div>-->
 </body>

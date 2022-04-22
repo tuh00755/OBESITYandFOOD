@@ -1,20 +1,39 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600');
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&family=PT+Serif:ital,wght@1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&display=swap');
 body{
     height: 100%;
     padding: 50px;
     scroll-behavior: smooth;
-    color: #666;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    color: black;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 100;
+
  }
 
-.fixed {
-    position: fixed;
-    max-width: 600px;
-    height: 500px;
-    top: 75px;
-    float: right;
+h1 {
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: 'Libre Bodoni', serif;
+    font-size: 30px;
+    color: maroon;
+}
+
+h2 {
+    font-family: 'Libre Bodoni', serif;
+    font-size: 30px;
+    color: maroon;
+}
+
+p {
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+    color: black;
 }
 
 #container {
@@ -25,14 +44,25 @@ body{
   padding: 0;
   position: absolute;
   line-height: 1.5;
-  margin-left: 1000px;
+  margin-left: 900px;
+  float: left;
 }
 
 #container > div {
-    height: 1200px;
+    height: 860px;
     display: block;
     padding: 0 45px;
+    float: left;
   }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 30%;
+  float: left;
+}
 
 
 .tick > line {

@@ -369,8 +369,8 @@
     "ObesityRate": "10.5",
     "MedianHouseholdIncome": "$63,657",
     "FavoriteFood" : "Lefse",
-    "Cost": "488 kcal",
-    "Calories": "$17.25",
+    "Cost": "$17.25",
+    "Calories": "488 kcal",
     "Image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/19/asset/buzzfeed-prod-fastlane-01/sub-buzz-32007-1518739220-1.png?downsize=1500:*&output-format=auto&output-quality=auto"
   },
   {
