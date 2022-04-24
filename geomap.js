@@ -27,7 +27,7 @@
 
             var blues = d3.scaleSequential()
               .domain(d3.extent(stateDictionary.values()))
-              .range(["white", "steelblue"]);
+              .range(["white", "red"]);
 
             var keys = stateDictionary.keys();
 
