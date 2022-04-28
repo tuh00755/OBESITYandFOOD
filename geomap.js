@@ -4,7 +4,7 @@
 //iife - this wraps the code in a function so it isn't accidentally exposed
 //to other javascript in other files. It is not required.
 
-    var width=1000, height=1200
+    var width=1500, height=1200
 
       Promise.all([
           d3.json("./topo.json"),
@@ -32,7 +32,7 @@
             var keys = stateDictionary.keys();
 
 
-          var projection = d3.geoAlbersUsa().scale(700).translate([487.5, 305])
+          var projection = d3.geoAlbersUsa().scale(1300).translate([600, 250])
           var path = d3.geoPath(projection);
           const topo = topojson.feature(topology, topology.objects.states)
 
@@ -76,63 +76,17 @@
 
           .attr("stroke", "black")
           .attr("stroke-width", "1px")
-           .style("opacity", 1)
-           .on("mouseover", mouseOver )
-            .on("mouseleave", mouseLeave );
+           .style("opacity", 1);
+           // .on("mouseover", mouseOver )
+           //  .on("mouseleave", mouseLeave );
 
 
-
-        //
-        // // Add one dot in the legend for each name.
-        // var size = 20
-        // svg.selectAll("mydots").append("g")
-        //   .data(keys)
-        //   .enter()
-        //   .append("rect")
-        //     .attr("x", 100)
-        //     .attr("y", function(d,i){ return 100 + i*(size+5)}) // 100 is where the first dot appears. 25 is the distance between dots
-        //     .attr("width", size)
-        //     .attr("height", size)
-        //     .style("fill", function(d){ console.log(d)
-        //     return blues(stateDictionary.get(d))}
-        //     )
-
-
-//         // Add one dot in the legend for each name.
-//         svg.selectAll("legend")
-//           .data(keys)
-//           .enter()
-//           .append("text")
-// //            .attr("x", 100 + size*1.2)
-// //            .attr("y", function(d,i){ return 100 + i*(size+5) + (size/2)}) // 100 is where the first dot appears. 25 is the distance between dots
-//             .style("fill", function(d){ return "black"})
-//             .text(function(d, i){ console.log(d)
-//             return d})
-//             .attr("text-anchor", "left")
-//             .style("alignment-baseline", "middle");
-//
-//      })
         var legend = d3.legendColor()
         .labelFormat(d3.format(".2f"))
-
         .title("LEGEND")
         .scale(blues);
 
       svg.append("g")
         .call(legend);
-
       })
-//
-//    //    / === Scrollytelling boilerplate === //
-//    function scroll(n, offset, func1, func2){
-//       const el = document.getElementById(n)
-//       return new Waypoint({
-//           element: document.getElementById(n),
-//           handler: function(direction) {
-//               direction == 'down' ? func1() : func2();
-//           },
-//           //start 75% from the top of the div
-//           offset: offset
-//       });
-//       };
-//})();
+

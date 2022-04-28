@@ -77,36 +77,3 @@
 //
 //         grid();
 //
-
-	var container = document.getElementById("container");
-	var photo = document.getElementById("MapPhoto");
-	var tempY;
-	window.addEventListener("scroll", (e) => {
-	//watch how image moves with scrolleing
-		if(window.pageYOffset >= container.offsetTop && window.pageYOffset <= container.offsetTop+container.offsetHeight  - window.innerHeight ){
-			console.log("sliding");
-			photo.style.position = "fixed";
-			photo.style.top = "0vh";
-			photo.style.marginTop = "";
-			tempY = window.pageYOffset;
-		}else if(window.pageYOffset <= container.offsetTop){
-			console.log("top screen");
-			photo.style.position = "absolute";
-			photo.style.top = "";
-			photo.style.marginTop = "";
-		}else{
-			console.log("stop");
-			photo.style.position = "absolute";
-			photo.style.marginTop = tempY + "px";
-		}
-	//change images while scroll
-		if(window.pageYOffset < document.getElementById("div1").offsetTop){
-			photo.textContent = "https://images.vexels.com/media/users/3/147677/isolated/preview/94de1721666d0ff4f6445ac0dd11d764-alaska-state-plain-map.png";
-		}
-		if(window.pageYOffset > document.getElementById("div1").offsetTop){
-			photo.textContent = "https://images.vexels.com/media/users/3/147677/isolated/preview/94de1721666d0ff4f6445ac0dd11d764-alaska-state-plain-map.png";
-		}
-		if(window.pageYOffset > document.getElementById("div2").offsetTop){
-			photo.textContent = "https://images.vexels.com/media/users/3/147677/isolated/preview/94de1721666d0ff4f6445ac0dd11d764-alaska-state-plain-map.png";
-		}
-	})
