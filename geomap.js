@@ -27,7 +27,7 @@
 
             var blues = d3.scaleSequential()
               .domain(d3.extent(stateDictionary.values()))
-              .range(["white", "red"]);
+              .range(["#F2D7D5", "red"]);
 
             var keys = stateDictionary.keys();
 
@@ -82,37 +82,46 @@
 
 
 
+        //
+        // // Add one dot in the legend for each name.
+        // var size = 20
+        // svg.selectAll("mydots").append("g")
+        //   .data(keys)
+        //   .enter()
+        //   .append("rect")
+        //     .attr("x", 100)
+        //     .attr("y", function(d,i){ return 100 + i*(size+5)}) // 100 is where the first dot appears. 25 is the distance between dots
+        //     .attr("width", size)
+        //     .attr("height", size)
+        //     .style("fill", function(d){ console.log(d)
+        //     return blues(stateDictionary.get(d))}
+        //     )
 
-        // Add one dot in the legend for each name.
-        var size = 20
-        svg.selectAll("mydots").append("g")
-          .data(keys)
-          .enter()
-          .append("rect")
-            .attr("x", 100)
-            .attr("y", function(d,i){ return 100 + i*(size+5)}) // 100 is where the first dot appears. 25 is the distance between dots
-            .attr("width", size)
-            .attr("height", size)
-            .style("fill", function(d){ console.log(d)
-            return blues(stateDictionary.get(d))}
-            )
 
+//         // Add one dot in the legend for each name.
+//         svg.selectAll("legend")
+//           .data(keys)
+//           .enter()
+//           .append("text")
+// //            .attr("x", 100 + size*1.2)
+// //            .attr("y", function(d,i){ return 100 + i*(size+5) + (size/2)}) // 100 is where the first dot appears. 25 is the distance between dots
+//             .style("fill", function(d){ return "black"})
+//             .text(function(d, i){ console.log(d)
+//             return d})
+//             .attr("text-anchor", "left")
+//             .style("alignment-baseline", "middle");
+//
+//      })
+        var legend = d3.legendColor()
+        .labelFormat(d3.format(".2f"))
 
-        // Add one dot in the legend for each name.
-        svg.selectAll("legend")
-          .data(keys)
-          .enter()
-          .append("text")
-//            .attr("x", 100 + size*1.2)
-//            .attr("y", function(d,i){ return 100 + i*(size+5) + (size/2)}) // 100 is where the first dot appears. 25 is the distance between dots
-            .style("fill", function(d){ return "black"})
-            .text(function(d, i){ console.log(d)
-            return d})
-            .attr("text-anchor", "left")
-            .style("alignment-baseline", "middle");
+        .title("LEGEND")
+        .scale(blues);
 
-     })
+      svg.append("g")
+        .call(legend);
 
+      })
 //
 //    //    / === Scrollytelling boilerplate === //
 //    function scroll(n, offset, func1, func2){
