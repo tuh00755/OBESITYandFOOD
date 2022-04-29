@@ -6,9 +6,10 @@
         <meta http-equiv="Pragma" content="no-cache" />
         <meta http-equiv="Expires" content="0" />
         <!-- import D3 Version 6 here or at the end of the body -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.7.0/d3.min.js"></script>
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.13.0/d3-legend.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.7.0/d3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.13.0/d3-legend.js"></script>
 
         <script src="https://unpkg.com/topojson@3"></script>
         <!-- load our custom D3 code (must happen after D3 is loaded) -->
@@ -288,10 +289,10 @@
             <p>Roncy Joseph</p>
         </div>
     </div>
-    <div class="fixed">
+    <div>
         <svg id="MapPhoto" width="500" height="500"></svg>
     </div>
-    <div>
+    <div style="position: relative">
         <svg id="scatterplot" width="1000" height="600" href=""></svg>
         <div id="tooltip1"></div>
     </div>

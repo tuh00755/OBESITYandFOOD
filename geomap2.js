@@ -1,9 +1,9 @@
 //    //grab our canvas
-//     var MapPhoto = d3.select("#MapPhoto");
+     var svg = d3.select("#MapPhoto");
 //    //
 //    //  //set the width and height
-//    //  svg.attr('width',500)
-//    //      .attr('height',500)
+    svg.attr('width',500)
+        .attr('height',500)
 //
 //    // d3.select(“#MapPhoto”).html("<img src=“http://linktoalaskamap.com”/>”);
 //     // //set up grid spacing
@@ -27,19 +27,19 @@
 //     //         .attr("y", (d, i) => Math.floor(i / column) % rows * spacing)
 //     //         .style("opacity", 1.0)
 //     //
-//     let grid = () => {
-//         MapPhoto.append('svg:image')
-//
-//             .attr({
-//             'xlink:href': 'https://images.vexels.com/media/users/3/147677/isolated/preview/94de1721666d0ff4f6445ac0dd11d764-alaska-state-plain-map.png'
-//         });
-//     }
-//     let grid2 = () => {
-//         MapPhoto.append('svg:image')
-//             .attr({
-//             'xlink:href': 'https://images.vexels.com/media/users/3/147677/isolated/preview/94de1721666d0ff4f6445ac0dd11d764-alaska-state-plain-map.png'
-//         });
-//     }
+    let grid = () => {
+        svg.append('svg:image')
+
+            .attr({
+            'xlink:href': 'https://images.vexels.com/media/users/3/147677/isolated/preview/94de1721666d0ff4f6445ac0dd11d764-alaska-state-plain-map.png'
+        });
+    }
+    let grid2 = () => {
+        svg.append('svg:image')
+            .attr({
+            'xlink:href': 'https://images.vexels.com/media/users/3/147677/isolated/preview/94de1721666d0ff4f6445ac0dd11d764-alaska-state-plain-map.png'
+        });
+    }
 //
 //         // let grid3 = () => {
 //         //     rects
@@ -58,22 +58,22 @@
 //         //     }
 //
 // //    / === Scrollytelling boilerplate === //
-//         function scroll(n, offset, func1, func2) {
-//             const el = document.getElementById(n)
-//             return new Waypoint({
-//                 element: document.getElementById(n),
-//                 handler: function (direction) {
-//                     direction == 'down' ? func1() : func2();
-//                 },
-//                 //start 75% from the top of the div
-//                 offset: offset
-//             });
-//         };
+        function scroll(n, offset, func1, func2) {
+            const el = document.getElementById(n)
+            return new Waypoint({
+                element: document.getElementById(n),
+                handler: function (direction) {
+                    direction == 'down' ? func1() : func2();
+                },
+                //start 75% from the top of the div
+                offset: offset
+            });
+        };
 //
 //         //trigger these functions on page scroll
-//         new scroll('div2', '200%', grid2, grid);  //create a grid for div2
-//         // new scroll('div3', '75%', grid3, grid2); //create a grid for div3
-//         // new scroll('div4', '75%', grid4, grid3); //create a grid for div4
+        new scroll('div2', '200%', grid2, grid);  //create a grid for div2
+        // new scroll('div3', '75%', grid3, grid2); //create a grid for div3
+        // new scroll('div4', '75%', grid4, grid3); //create a grid for div4
 //
-//         grid();
+        grid();
 //
