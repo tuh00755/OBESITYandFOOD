@@ -40,15 +40,14 @@
             'xlink:href': 'https://images.vexels.com/media/users/3/147677/isolated/preview/94de1721666d0ff4f6445ac0dd11d764-alaska-state-plain-map.png'
         });
     }
-//
-//         // let grid3 = () => {
-//         //     rects
-//         //         .transition()
-//         //         .delay((d, i) => 10 * i)
-//         //         .duration(400)
-//         //         .style("fill", (d, i) => (i < 13 && i != 0 ? "blue" : "grey"));
-//         //     }
-//         //
+
+        let grid3 = () => {
+            svg.append('svg:image')
+                .attr({
+                    'xlink:href': 'https://images.vexels.com/media/users/3/147677/isolated/preview/94de1721666d0ff4f6445ac0dd11d764-alaska-state-plain-map.png'
+                });
+        }
+
 //         // let grid4 = () => {
 //         //     rects
 //         //         .transition()
@@ -60,7 +59,9 @@
 // //    / === Scrollytelling boilerplate === //
         function scroll(n, offset, func1, func2) {
             const el = document.getElementById(n)
-            return new Waypoint({
+
+            // return new Waypoint
+            var waypoint = new Waypoint({
                 element: document.getElementById(n),
                 handler: function (direction) {
                     direction == 'down' ? func1() : func2();
@@ -71,8 +72,8 @@
         };
 //
 //         //trigger these functions on page scroll
-        new scroll('div2', '200%', grid2, grid);  //create a grid for div2
-        // new scroll('div3', '75%', grid3, grid2); //create a grid for div3
+        new scroll('div1', '200%', grid2, grid);  //create a grid for div2
+         new scroll('div3', '75%', grid3, grid2); //create a grid for div3
         // new scroll('div4', '75%', grid4, grid3); //create a grid for div4
 //
         grid();
