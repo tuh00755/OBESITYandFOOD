@@ -9,29 +9,36 @@
 body{
     background-color: lavenderblush;
     height: 100%;
-    padding: 50px;
+    padding: 0px;
     scroll-behavior: smooth;
     color: black;
     font-family: 'Noto Sans', sans-serif;
     /*font-weight: 700;*/
 
+
  }
 
 h1 {
     font-family: 'Noto Sans', sans-serif;
-    font-size: 70px;
+    font-size: 60px;
+    margin: 20px;
+    padding: 10px;
 }
 
 h3 {
     font-family: 'Noto Sans', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     color: maroon;
+    margin: 20px;
+    padding: 10px;
 }
 
 h2 {
     font-family: 'Noto Sans', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     color: maroon;
+    margin: 20px;
+    padding: 10px;
 }
 
 p {
@@ -39,7 +46,19 @@ p {
     font-weight: 900;
     font-size: 20px;
     color: black;
+    margin: 20px;
+    padding: 10px;
 
+}
+
+.fixed {
+    position: fixed;
+    max-height: 1200px;
+    height: 1000px;
+    top: 555px;
+    float: right;
+    margin: 20px;
+    padding: 10px;
 }
 
 #container {
@@ -49,17 +68,21 @@ p {
   margin: 0;
   padding: 0;
   position: absolute;
-  line-height: 1.5;
-  margin-left: 900px;
-  float: left;
+  line-height: 1.0;
+  margin-right: 300px;
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+
 }
 
+/*
 #container > div {
-    height: 860px;
+    height: 1000px;
     display: block;
-    padding: 49px;
-    float: left;
+    padding: 80px;
   }
+*/
 
 img {
   display: block;
@@ -68,10 +91,12 @@ img {
   width: 30%;
   height: 30%;
   float: left;
+  margin: 20px;
+  padding: 10px;
 }
 
 
 .tick > line {
     color: rgb(194, 194, 194);
-    opacity: 0.5;
+    opacity: 1.0;
 }

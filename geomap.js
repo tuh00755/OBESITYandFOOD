@@ -9,7 +9,7 @@
       Promise.all([
           d3.json("./topo.json"),
           d3.json("./States.json")
-          //d3.csv("./cities.csv")
+
         ]).then((data) => {
            const topology = data[0];
 
