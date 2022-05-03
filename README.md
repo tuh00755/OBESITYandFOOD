@@ -42,7 +42,10 @@ NORTHEAST REGION - New York
 ## Lessons Learned / Challenges we faced
 - Using topographgy to show data and creating legends based on data depicted in a graph.
 - Uisng various different aspects we learned, topography, scatterplots and mouseovers to depict different data to create a visualization that tells the story of obesity among the youth of USA.
-What is the takeaway from all of this?
+
+
+
+## What is the takeaway from all of this?
 - Lower Household Income == Higher Obesity
 
 
